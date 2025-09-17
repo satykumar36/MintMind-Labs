@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsiveStyles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <title>ConnectedDots</title>
+</head>
+
+<body>
+
+    <section class="section-1" id="sec-1">
+        <div id="particle-js"></div>
+        <div class="nav-bar-container container">
+            <nav class="navbar navbar-expand-lg navbar-light navbar-transparent">
+                <div class="container-fluid">
+                    <div class="navbar-logo" onclick="navigateToContact('./index.html')"> <img class="logo-brand"
+                            src="./images/MintMind_Logo.png" alt="compnay-logo">
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="bi bi-list navbar-toggler-icon text-light custom-toggler"></i>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item">
+                                <a class="nav-link active ms-lg-3 ms-0" aria-current="page" href="#sec-1">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ms-lg-3 ms-0" href="./services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ms-lg-3 ms-0" href="./careers.html">Careers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ms-lg-3 ms-0" href="./about.html">About Us</a>
+                            </li>
+                            <li class="nav-item d-block d-lg-none">
+                                <a class="nav-link ms-lg-3 ms-0" href="./contact.html">Let's Talk</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <button class="btn btn-light contact-btn d-none d-lg-block"
+                        onclick="navigateToContact('./contact.html')">Let's Talk</button>
+
+                </div>
+            </nav>
+        </div>
+
+        <div class="home-content-1 container" style="z-index: 5; width: fit-content;">
+            <div class="home-content-1-main-tag ">
+                <button class="round-button"><span class="bg-greenDot"></span><span class="">Open For
+                        Projects</span></button>
+                <div class="main-tag">
+                    <h1 class="text-center">We deliver top-notch Scalable</h1>
+                    <h1 class="text-center main-sub-tag">Shopify Solutions</h1>
+                </div>
+                <div class="sub-tag">
+                    <p class="text-center">At Mintmind Labs, we build tailored Shopify and eCommerce solutions that
+                        boost growth and enhance user experience, combining innovation with industry expertise.</p>
+                </div>
+                <div class="career-btn-holder" style="margin-top: 25px;">
+                    <button class="btn btn-light career-btn" onclick="navigateToContact('./contact.html')">Let's
+                        Connect</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========Vision========== -->
+    <section class="section-6" id="sec-6">
+        <div class="projects-content container container_wrapper">
+            <div class="projects-content-parent">
+                <div class="projects-content-child">
+                    <div class="service-content-child">
+                        <div class="service-content-topic blockk">
+                            <h3 class="text-center contact-content-sub" style="color: rgb(243, 243, 243);">Our Process
+                                From<span class="email"> Vision to Victory </span>
+                            </h3>
+                            <div class="sub-tag" style="margin: 0 auto;">
+                                <h3 class="text-center contact-content-para-1">We turn your ideas into impactful digital
+                                    experiences — from intuitive design to powerful development, and smart growth
+                                    strategies that drive real results.</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <!-- Process 1-->
+                        <div class="col-12 col-lg-4 mb-4">
+                            <div class="project-card process-card-wrapper">
+                                <img src="./images/vision1.png" alt="Image 1" class="work_image">
+                                <h4 class="mt-3 project-title">Design</h4>
+                                <p class="project-description">Transforming ideas into visual masterpieces, we craft
+                                    stunning user experiences that captivate and convert your target audience.</p>
+                            </div>
+                        </div>
+
+                        <!-- Process 2 -->
+                        <div class="col-12 col-lg-4 mb-4">
+                            <div class="project-card process-card-wrapper">
+                                <img src="./images/vision2.png" alt="Image 1" class="work_image">
+                                <h4 class="mt-3 project-title">Develop</h4>
+                                <p class="project-description">Product development guided by industry standards,
+                                    ensuring the efficient delivery of reliable and top-tier robust and scalable
+                                    software solutions.</p>
+                            </div>
+                        </div>
+
+                        <!-- Process 3 -->
+                        <div class="col-12 col-lg-4 mb-4">
+                            <div class="project-card process-card-wrapper">
+                                <img src="./images/vision3.png" alt="Image 1" class="work_image">
+                                <h4 class="mt-3 project-title">Maintain</h4>
+                                <p class="project-description">We ensure your Shopify store stays optimized, secure, and
+                                    up-to-date — with ongoing support, SEO enhancements, and performance monitoring to
+                                    keep you ahead.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========Mintminds Vision============ -->
+    <section class="section-2" id="sec-2">
+        <div class="bgi"></div>
+        <div class="home-content-2 container container_wrapper">
+
+            <div class="home-content-2-parent">
+                <div class="home-content-2-child">
+                    <div class="home-content-2-topic blockk ">
+                        <h3 class="text-center home-content-2-main ">Mintminds Vision</h3>
+                        <h3 class="text-center service-content-sub ">Delivering <span class="email"> Next-Generation
+                                Ecommerce </span>Solutions for Businesses
+                        </h3>
+                        <!-- <h3 class="text-center service-content-sub"> </h3> -->
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 col-lg-6 mb-4">
+                            <div class="flex-tile blockk">
+                                <div class="flex-tile-icon-holder">
+                                    <div class="flex-tile-icon">
+                                        <img src="./images/nanotechnology.png" alt="nano-technology">
+                                    </div>
+                                </div>
+                                <div class="flex-tile-content-holder">
+                                    <div class="flex-tile-content">
+                                        <h2 class="text-light email">Smart Tech for Smarter Stores</h2>
+                                        <p>Effortlessly integrate advanced tools and automation to streamline
+                                            operations, boost performance, and future-proof your eCommerce business..
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 mt-lg-0 mb-4">
+                            <div class="flex-tile blockk">
+                                <div class="flex-tile-icon-holder">
+                                    <div class="flex-tile-icon">
+                                        <img src="./images/distributed.png"" alt=" mesh-topology">
+                                    </div>
+                                </div>
+                                <div class="flex-tile-content-holder">
+                                    <div class="flex-tile-content">
+                                        <h2 class="text-light">Tailored eCommerce Solutions for Scalable Growth</h2>
+                                        <p>We design custom Shopify and digital solutions that align with your business
+                                            goals, helping you scale faster and smarter.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-4">
+                            <div class="flex-tile blockk">
+                                <div class="flex-tile-icon-holder">
+                                    <div class="flex-tile-icon">
+                                        <img src="./images/data-management.webp" alt="nano-technology">
+                                    </div>
+                                </div>
+                                <div class="flex-tile-content-holder">
+                                    <div class="flex-tile-content">
+                                        <h2 class="text-light">Seamless User Experience Across Devices</h2>
+                                        <p>We prioritize responsive, mobile-first design to ensure your customers enjoy
+                                            a smooth and engaging shopping experience—no matter the device they use.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-4">
+                            <div class="flex-tile blockk">
+                                <div class="flex-tile-icon-holder">
+                                    <div class="flex-tile-icon">
+                                        <img src="./images/technology.webp" alt="nano-technology">
+                                    </div>
+                                </div>
+                                <div class="flex-tile-content-holder">
+                                    <div class="flex-tile-content">
+                                        <h2 class="text-light">Built for Performance and Conversion</h2>
+                                        <p>Our development process emphasizes speed, SEO, and conversion-focused design
+                                            to maximize traffic, reduce bounce rates, and drive sales.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========Our Expertise============ -->
+    <section class="section-3" id="sec-3">
+        <div class="service-content container container_wrapper">
+            <div class="service-content-parent">
+                <div class="service-content-child">
+                    <div class="service-content-topic blockk">
+                        <h3 class="text-center service-content-main">Our Expertise</h3>
+                        <h3 class="text-center service-content-sub">Tailored <span class="email">Ecommerce</span>
+                            Expertise for You</h3>
+                    </div>
+
+                </div>
+                <div class="service-showcase container">
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <div class="service-card blockk">
+                                <div class="service-card-header">
+                                    <div class="service-icon-holder service-holder-1">
+                                        <!-- <i class="bi bi-cpu color-1"></i> -->
+                                        <i class="fab fa-shopify" style="color: #89C129;"></i>
+                                    </div>
+                                </div>
+                                <div class="service-topic">
+                                    <h3 class="text-center">Shopify Development</h3>
+                                </div>
+                                <div class="service-detail">
+                                    <p class="text-center">
+                                        We build custom Shopify solutions to help your business thrive online and
+                                        connect with the world.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="service-card blockk">
+                                <div class="service-card-header">
+                                    <div class="service-icon-holder service-holder-2">
+                                        <i class="bi bi-cpu color-2"></i>
+                                    </div>
+                                </div>
+                                <div class="service-topic">
+                                    <h3 class="text-center">Web Development</h3>
+                                </div>
+                                <div class="service-detail">
+                                    <p class="text-center">
+                                        We create tailored website solutions to help your business thrive online to
+                                        connect world.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4 ux-ui">
+                            <div class="service-card blockk">
+                                <div class="service-card-header">
+                                    <div class="service-icon-holder service-holder-3">
+                                        <i class="bi bi-droplet-half color-3"></i>
+                                    </div>
+                                </div>
+                                <div class="service-topic">
+                                    <h3 class="text-center">UX/UI Design</h3>
+                                </div>
+                                <div class="service-detail">
+                                    <p class="text-center">
+                                        Our team of skilled designers specializes in UI/UX development for cutting-edge
+                                        applications.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="image-slider">
+                        <div class="slider-wrapper">
+                            <div class="slider">
+                                <img src="./images/bootstrap-original.png" alt="Image 1" class="slider-image">
+                                <img src="./images/css3-original.png" alt="Image 2" class="slider-image">
+                                <img src="./images/docker-plain.png" alt="Image 3" class="slider-image">
+                                <img src="./images/html5-original.png" alt="Image 4" class="slider-image">
+                                <img src="./images/javascript-original.png" alt="Image 5" class="slider-image">
+                                <img src="./images/jquery-plain-wordmark.png" alt="Image 6" class="slider-image">
+                                <img src="./images/materialui-plain.png" alt="Image 7" class="slider-image">
+                                <img src="./images/mongodb-original-wordmark.png" alt="Image 8" class="slider-image">
+                                <img src="./images/mysql-original-wordmark.png" alt="Image 9" class="slider-image">
+                                <img src="./images/nginx-original.png" alt="Image 10" class="slider-image">
+                                <img src="./images/Vector.png" alt="Image 10" class="slider-image">
+                                <img src="./images/typescript-plain.png" alt="Image 10" class="slider-image">
+                                <img src="./images/tailwindcss-plain.png" alt="Image 10" class="slider-image">
+                                <img src="./images/sass-original.png" alt="Image 10" class="slider-image">
+                                <img src="./images/redux-original.png" alt="Image 10" class="slider-image">
+                                <img src="./images/react-original.png" alt="Image 10" class="slider-image">
+                                <img src="./images/nodejs-plain.png" alt="Image 10" class="slider-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========Development Process========== -->
+    <section class="section-6" id="sec-6">
+        <div class="projects-content container container_wrapper">
+            <div class="projects-content-parent">
+                <div class="projects-content-child">
+                    <div class="service-content-child">
+                        <div class="service-content-topic blockk">
+                            <h3 class="text-center contact-content-sub" style="color: rgb(243, 243, 243);">Our
+                                <span class="email"> Development Process?</span></Development>
+                            </h3>
+                            <div class="sub-tag" style="margin: 0 auto;">
+                                <h3 class="text-center contact-content-para-1">We believe in a transparent and
+                                    collaborative development process. From ideation to launch, we’ll keep you informed
+                                    every step of the way.</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <!-- Process 1-->
+                        <div class="process_card col-12 col-lg-4 mb-4">
+                            <div class="project-card process-card-wrapper">
+                                <video autoplay muted loop playsinline class="w-100 rounded shadow">
+                                    <source src="./images/Requirement.mp4" type="video/webm" />
+                                    Your browser does not support the video tag.
+                                </video>
+                                <h4 class="mt-3 project-title">Requirement Gathering</h4>
+                                <p class="project-description">We take the time to understand your goals, target
+                                    audience, and brand identity to craft solutions that truly resonates.</p>
+                            </div>
+                        </div>
+
+                        <!-- Process 2 -->
+                        <div class="process_card col-12 col-lg-4 mb-4">
+                            <div class="project-card process-card-wrapper">
+                                <video autoplay muted loop playsinline class="w-100 rounded shadow">
+                                    <source src="./images/UI&UX-Designing.webm" type="video/webm" />
+                                    Your browser does not support the video tag.
+                                </video>
+                                <h4 class="mt-3 project-title">UI & UX Designing </h4>
+                                <p class="project-description">We create visually stunning, user-centric interfaces
+                                    that are intuitive and engaging, delivering a seamless user experience.</p>
+                            </div>
+                        </div>
+
+                        <!-- Process 3 -->
+                        <div class="process_card col-12 col-lg-4 mb-4">
+                            <div class="project-card process-card-wrapper">
+                                <video autoplay muted loop playsinline class="w-100 rounded shadow">
+                                    <source src="./images/Agile-Development.webm" type="video/webm" />
+                                    Your browser does not support the video tag.
+                                </video>
+                                <h4 class="mt-3 project-title">Agile Development</h4>
+                                <p class="project-description">Tailored to your needs, our agile development
+                                    approach involves ongoing refinement and integration of your feedback. This
+                                    ensures that your digital products evolve seamlessly with your changing needs,
+                                    delivering a solution that stays relevant and effective throughout its
+                                    lifecycle. Your input drives continuous improvement for optimal results.</p>
+                            </div>
+                        </div>
+                        <!-- Process 4 -->
+                        <div class="process_card col-12 col-lg-6 mb-4">
+                            <div class="project-card process-card-wrapper">
+                                <video autoplay muted loop playsinline class="w-100 rounded shadow">
+                                    <source src="./images/Deployment.webm" type="video/webm" />
+                                    Your browser does not support the video tag.
+                                </video>
+                                <h4 class="mt-3 project-title">Deployment</h4>
+                                <p class="project-description">Effortless deployment with precision. We ensure
+                                    seamless launches, smooth transitions, minimal downtime, and a flawless launch
+                                    for your digital product’s success.</p>
+                            </div>
+                        </div>
+                        <!-- Process 5 -->
+                        <div class="process_card col-12 col-lg-6 mb-4">
+                            <div class="project-card process-card-wrapper">
+                                <video autoplay muted loop playsinline class="w-100 rounded shadow">
+                                    <source src="./images/Maintenance.mp4" type="video/webm" />
+                                    Your browser does not support the video tag.
+                                </video>
+                                <h4 class="mt-3 project-title">Support & Maintenance </h4>
+                                <p class="project-description">Keeping you ahead of the curve. We provide continuous
+                                    ongoing support and maintenance to ensure your digital products stays secure,
+                                    up-to-date, and performing optimally.</p>
+                            </div>
+                        </div>
+
+                        <!-- Add more rows or loop with JavaScript if needed -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========Why work with us========== -->
+    <section class="section-6" id="sec-6">
+        <div class="projects-content container container_wrapper">
+            <div class="projects-content-parent">
+                <div class="projects-content-child">
+                    <div class="service-content-child">
+                        <div class="service-content-topic blockk">
+                            <h3 class="text-center contact-content-sub" style="color: rgb(243, 243, 243);">Why
+                                <span class="email"> work </span>with us?
+                            </h3>
+                            <div class="sub-tag" style="margin: 0 auto;">
+                                <h3 class="text-center contact-content-para-1">We craft digital experiences that drive
+                                    results. We'll help you achieve your business goals, from increased brand awareness
+                                    to skyrocketing sales.</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <!-- Process 1-->
+                        <div class="col-12 col-lg-4 mb-4">
+                            <div class="project-card process-card-wrapper">
+                                <img src="./images/work1.png" alt="Image 1" class="work_image">
+                                <h4 class="mt-3 project-title">Excellent Customer Service</h4>
+                                <p class="project-description">We don't just solve problems, we build lasting
+                                    relationships. Experience the exceptional service your brand truly deserves.</p>
+                            </div>
+                        </div>
+
+                        <!-- Process 2 -->
+                        <div class="col-12 col-lg-4 mb-4">
+                            <div class="project-card process-card-wrapper">
+                                <img src="./images/work2.png" alt="Image 1" class="work_image">
+                                <h4 class="mt-3 project-title">Prove Track Record</h4>
+                                <p class="project-description">We are trusted by countless clients, backed by verifiable
+                                    success stories. We consistently exceed expectations through expertise and
+                                    dedication.</p>
+                            </div>
+                        </div>
+
+                        <!-- Process 3 -->
+                        <div class="col-12 col-lg-4 mb-4">
+                            <div class="project-card process-card-wrapper">
+                                <img src="./images/work3.png" alt="Image 1" class="work_image">
+                                <h4 class="mt-3 project-title">Competitive Price</h4>
+                                <p class="project-description">Don't trade quality for cost. We deliver top-notch design
+                                    & development services at competitive rates without compromise.</p>
+                            </div>
+                        </div>
+                        <!-- Process 4 -->
+                        <div class="col-12 col-lg-4 mb-4">
+                            <div class="project-card process-card-wrapper">
+                                <img src="./images/work4.png" alt="Image 1" class="work_image">
+                                <h4 class="mt-3 project-title">Personal Account Manager</h4>
+                                <p class="project-description">You’ll have a dedicated solutions partner to guide you
+                                    through every step of the process with expertise.</p>
+                            </div>
+                        </div>
+                        <!-- Process 5 -->
+                        <div class="col-12 col-lg-4 mb-4">
+                            <div class="project-card process-card-wrapper">
+                                <img src="./images/work5.png" alt="Image 1" class="work_image">
+                                <h4 class="mt-3 project-title">Honest & Valuable Advice</h4>
+                                <p class="project-description">We provide honest advice to help you make a meaningful
+                                    impact and achieve significant results for your business.</p>
+                            </div>
+                        </div>
+                        <!-- Process 6 -->
+                        <div class="col-12 col-lg-4 mb-4">
+                            <div class="project-card process-card-wrapper">
+                                <img src="./images/work6.png" alt="Image 1" class="work_image">
+                                <h4 class="mt-3 project-title">Team of Experts in their niche</h4>
+                                <p class="project-description">Our domain-expert teams collaborate seamlessly to turn
+                                    your vision into reality with precision and creativity.</p>
+                            </div>
+                        </div>
+
+                        <!-- Add more rows or loop with JavaScript if needed -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========Industry Experiences========== -->
+    <section class="section-6" id="sec-9">
+        <div class="projects-content container container_wrapper">
+            <div class="projects-content-parent">
+                <div class="projects-content-child">
+                    <div class="service-content-child">
+                        <div class="service-content-topic blockk">
+                            <h3 class="text-center contact-content-sub" style="color: rgb(243, 243, 243);">
+                                Our diverse <span class="email">Industry Experiences</span>?
+                            </h3>
+                            <div class="sub-tag" style="margin: 0 auto;">
+                                <h3 class="text-center contact-content-para-1">
+                                    Our team is dedicated to designing digital solutions that meet the unique demands of
+                                    various sectors leveraging the latest technology to meet unique industry demands and
+                                    drive innovation.
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="position-relative">
+                        <!-- Buttons -->
+                        <div class="d-flex justify-content-end mt-4">
+                            <button class="btn btn-outline-light me-3" id="prevFeatureBtn"><i
+                                    class="fas fa-chevron-left"></i></button>
+                            <button class="btn btn-outline-light" id="nextFeatureBtn"><i
+                                    class="fas fa-chevron-right"></i></button>
+                        </div>
+                        <!-- Feature Slider Track -->
+                        <div class="feature-slider d-flex overflow-hidden mt-3">
+                            <div class="feature-track d-flex transition">
+                                <!-- Card 1 -->
+                                <div class="feature-card project-card text-center p-4 me-4">
+                                    <img src="./images/industry1.png" alt="Image 1" class="work_image"
+                                        style="margin-bottom: 10px;">
+                                    <h5 class="mb-2" style="color: white;">Healthcare</h5>
+                                    <p style="color: grey;">We develop apps & websites that streamline operations,
+                                        elevate patient care, and empower healthcare.</p>
+                                    <ul style="color: white;">
+                                        <li>Telemedicine Platform</li>
+                                        <li>Patient Health Management System</li>
+                                        <li>Virtual Health Coaching</li>
+                                    </ul>
+                                </div>
+
+                                <!-- Card 2 -->
+                                <div class="feature-card project-card text-center p-4 me-4">
+                                    <img src="./images/industry2.png" alt="Image 1" class="work_image"
+                                        style="margin-bottom: 10px;">
+                                    <h5 class="mb-2" style="color: white;">Ecommerce</h5>
+                                    <p style="color: grey;">We craft user-friendly e-commerce solutions that drive
+                                        conversions and build customer loyalty.</p>
+                                    <ul style="color: white;">
+                                        <li>Multi-Channel Retail Platforms</li>
+                                        <li>B2B platforms</li>
+                                        <li>B2C solutions</li>
+                                    </ul>
+                                </div>
+
+                                <!-- Card 3 -->
+                                <div class="feature-card project-card text-center p-4 me-4">
+                                    <img src="./images/industry3.png" alt="Image 1" class="work_image"
+                                        style="margin-bottom: 10px;">
+                                    <h5 class="mb-2" style="color: white;">Sports</h5>
+                                    <p style="color: grey;">We design and develop fan-centric sports platforms that
+                                        drive engagement and connect communities.</p>
+                                    <ul style="color: white;">
+                                        <li>Fitness Tracking Apps</li>
+                                        <li>Personal Training & Coaching Solutions</li>
+                                        <li>Activity and Performance Tracking solutions</li>
+                                    </ul>
+                                </div>
+
+                                <!-- Card 4 -->
+                                <div class="feature-card project-card text-center p-4 me-4">
+                                    <img src="./images/industry4.png" alt="Image 1" class="work_image"
+                                        style="margin-bottom: 10px;">
+                                    <h5 class="mb-2" style="color: white;">Business Solutions</h5>
+                                    <p style="color: grey;">We craft custom design & development solutions to streamline
+                                        workflows, boost efficiency, and fuel growth.</p>
+                                    <ul style="color: white;">
+                                        <li>CRM apps</li>
+                                        <li>Project Management apps</li>
+                                        <li>Custom Business solutions</li>
+                                    </ul>
+                                </div>
+
+                                <!-- Card 5 -->
+                                <div class="feature-card project-card text-center p-4 me-4">
+                                    <img src="./images/industry5.png" alt="Image 1" class="work_image"
+                                        style="margin-bottom: 10px;">
+                                    <h5 class="mb-2" style="color: white;">On-Demand Solutions </h5>
+                                    <p style="color: grey;">Craft seamless on demand experiences with our design and
+                                        development expertise. Get what you need.</p>
+                                    <ul style="color: white;">
+                                        <li>Online Classes App</li>
+                                        <li>E-Learning Portals </li>
+                                        <li>School Management</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========Testimonail========== -->
+    <section class="section-8" id="sec-8">
+        <div class="projects-content container container_wrapper">
+            <div class="projects-content-parent">
+                <div class="projects-content-child">
+                    <div class="service-content-child">
+                        <div class="service-content-topic blockk">
+                            <h3 class="text-center contact-content-sub" style="color: rgb(243, 243, 243);">
+                                There Are Reason <span class="email">People Are Raving</span> About Us.
+                            </h3>
+                            <div class="sub-tag" style="margin: 0 auto;">
+                                <h3 class="text-center contact-content-para-1">
+                                    Don’t just take our word for it. Explore what our happy clients have to say about
+                                    their experience working with our agency.
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-slider-wrapper mt-5">
+                        <div class="testimonial-track d-flex">
+                            <!-- Testimonial -->
+                            <div
+                                class="testimonial-card project-card d-flex flex-column justify-content-between text-center p-4">
+                                <div class="stars mb-2 text-warning">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">“Mintmind Labs built us a sleek, high-converting store that
+                                    exceeded expectations. Great communication and flawless execution.”</p>
+                                <div class="testimonial-author d-flex align-items-center justify-content-center mt-3">
+                                    <img src="./images/testimonial.webp" alt="Image 1" class="testimonial-image">
+                                    <span class="author-name">Sarah T., CEO, Apparel Co.</span>
+                                </div>
+                            </div>
+
+                            <div
+                                class="testimonial-card project-card d-flex flex-column justify-content-between text-center p-4">
+                                <div class="stars mb-2 text-warning">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">“Loved their attention to detail and commitment to
+                                    delivering quality. Our store speed and sales both improved!”</p>
+                                <div class="testimonial-author d-flex align-items-center justify-content-center mt-3">
+                                    <img src="./images/testimonial.webp" alt="Image 1" class="testimonial-image">
+                                    <span class="author-name">Rakesh M., Founder, Homely</span>
+                                </div>
+                            </div>
+
+                            <div
+                                class="testimonial-card project-card d-flex flex-column justify-content-between text-center p-4">
+                                <div class="stars mb-2 text-warning">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">“From onboarding to launch, the Mintmind team was highly
+                                    responsive, organized, and creative. Highly recommended.”</p>
+                                <div class="testimonial-author d-flex align-items-center justify-content-center mt-3">
+                                    <img src="./images/testimonial.webp" alt="Image 1" class="testimonial-image">
+                                    <span class="author-name">Alex N., Director, Bespokery</span>
+                                </div>
+                            </div>
+
+                            <!-- Duplicates for infinite scroll -->
+                            <div
+                                class="testimonial-card project-card d-flex flex-column justify-content-between text-center p-4">
+                                <div class="stars mb-2 text-warning">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">“Mintmind Labs built us a sleek, high-converting store that
+                                    exceeded expectations. Great communication and flawless execution.”</p>
+                                <div class="testimonial-author d-flex align-items-center justify-content-center mt-3">
+                                    <img src="./images/testimonial.webp" alt="Image 1" class="testimonial-image">
+                                    <span class="author-name">Sarah T., CEO, Apparel Co.</span>
+                                </div>
+                            </div>
+
+                            <div
+                                class="testimonial-card project-card d-flex flex-column justify-content-between text-center p-4">
+                                <div class="stars mb-2 text-warning">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">“Loved their attention to detail and commitment to
+                                    delivering quality. Our store speed and sales both improved!”</p>
+                                <div class="testimonial-author d-flex align-items-center justify-content-center mt-3">
+                                    <img src="./images/testimonial.webp" alt="Image 1" class="testimonial-image">
+                                    <span class="author-name">Rakesh M., Founder, Homely</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========Our Projects========== -->
+    <section class="section-3" id="sec-7">
+        <div class="projects-content container container_wrapper">
+            <div class="projects-content-parent">
+                <div class="projects-content-child">
+                    <div class="service-content-child">
+                        <div class="service-content-topic blockk">
+                            <h3 class="text-center contact-content-sub" style="color: rgb(243, 243, 243);">See Our
+                                Recent <span class="email">Shopify Projects</span></h3>
+                            <div class="sub-tag" style="margin: 0 auto;">
+                                <h3 class="text-center contact-content-para-1">Explore our showcase of our recent
+                                    projects to see the shopify solutions we’ve recently brought to life.</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <!-- Project 1 -->
+                        <!-- <div class="col-12 col-lg-6 mb-4">
+                            <div class="project-card">
+                                <img src="./images/American_Apparel.png" alt="American Apparel Project"
+                                    class="img-fluid project-image">
+                                <h4 class="mt-3 project-title">American Apparel Australia</h4>
+                                <p class="project-description">A multi-million dollar Australian fashion brand,
+                                    American Apparel's Shopify store was custom-built for performance, brand
+                                    identity, and seamless user experience across devices.</p>
+                            </div>
+                        </div> -->
+
+                        <!-- Project 2 -->
+                        <!-- <div class="col-12 col-lg-6 mb-4">
+                            <div class="project-card">
+                                <img src="./images/Gildan_India.png" alt="American Apparel Project"
+                                    class="img-fluid project-image">
+                                <h4 class="mt-3 project-title">Gildan India – Premium Apparel Storefront</h4>
+                                <p class="project-description">We built a sleek, performance-optimized Shopify store
+                                    for Gildan India, a globally renowned apparel brand. Tailored for the Indian
+                                    market, the storefront emphasizes brand consistency, speed, and a mobile-first
+                                    shopping experience.</p>
+                            </div>
+                        </div> -->
+
+                        <!-- Project 3 -->
+                        <div class="col-12 col-lg-6 mb-4">
+                            <div class="project-card">
+                                <img src="./images/AHandTailored.png" alt="American Apparel Project"
+                                    class="img-fluid project-image">
+                                <h4 class="mt-3 project-title">A Hand Tailored Suit – Bespoke Tailoring Platform
+                                </h4>
+                                <p class="project-description">A Hand Tailored Suit is a UK-based bespoke tailoring
+                                    service offering fully custom, made-to-measure garments for men, women, and
+                                    children. With over 10,000 fabric options, expert style consultations, and
+                                    limited monthly production to ensure quality and exclusivity, their platform
+                                    blends online convenience with traditional craftsmanship.</p>
+                            </div>
+                        </div>
+
+                        <!-- Project 4 -->
+                        <div class="col-12 col-lg-6 mb-4">
+                            <div class="project-card">
+                                <img src="./images/Alexander.png" alt="American Apparel Project"
+                                    class="img-fluid project-image">
+                                <h4 class="mt-3 project-title">Alexander Nash – Luxury Bespoke Tailoring NYC</h4>
+                                <p class="project-description">Alexander Nash is a premier New York City bespoke
+                                    tailor delivering luxury custom suits for men and women. Known for precision
+                                    craftsmanship, handmade basted fittings, and premium fabrics from Scabal,
+                                    Dormeuil, Ermenegildo Zegna & Loro Piana, their service blends artisanal quality
+                                    with refined elegance.</p>
+                            </div>
+                        </div>
+
+                        <!-- Project 4 -->
+                        <div class="col-12 col-lg-6 mb-4">
+                            <div class="project-card">
+                                <img src="./images/Badass.png" alt="American Apparel Project"
+                                    class="img-fluid project-image">
+                                <h4 class="mt-3 project-title">Badass Bespokery – Premium Custom Tailoring</h4>
+                                <p class="project-description">Badass Bespokery offers a luxury custom-tailoring
+                                    service featuring 1,000+ fabrics (Italian, English, Australian) and a full line
+                                    of tailored items—suits, shirts, shoes, accessories—with a concierge-at-home
+                                    experience. Clients design every detail from cuffs to linings, with personal
+                                    stylist support and handcrafted production for a bold, distinctive wardrobe .
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Project 4 -->
+                        <div class="col-12 col-lg-6 mb-4">
+                            <div class="project-card">
+                                <img src="./images/Homely.png" alt="American Apparel Project"
+                                    class="img-fluid project-image">
+                                <h4 class="mt-3 project-title">Homely – Customizable Sofa & Table Storefront</h4>
+                                <p class="project-description">Homely is a modern, fully customizable eCommerce
+                                    website for sofas and tables. Designed for a seamless shopping experience, it
+                                    empowers users to personalize products by size, fabric, color, and features—all
+                                    within an intuitive, mobile-friendly interface.</p>
+                            </div>
+                        </div>
+
+                        <!-- Add more rows or loop with JavaScript if needed -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========Talk to us========== -->
+    <section class="section-5" id="sec-5">
+        <div id="particle-js-2"></div>
+        <div class="contact-content container container_wrapper">
+            <div class="project-card row align-items-center" style="margin-inline: 0px;">
+                <!-- Left Side: Text Content -->
+                <div class="col-lg-6">
+                    <div class="contact-content-topic blockk">
+                        <h3 class="contact-content-main email">Talk to Us</h3>
+                        <h1 class="contact-content-sub">Let's Create Your Idea Digitally</h1>
+                        <p class="contact-content-para-1">
+                            From concept to launch, we build innovative Shopify solutions that enhance user experience,
+                            boost performance, and accelerate business growth.
+                        </p>
+                        <div class="contact-btn-holder mt-4">
+                            <button class="btn btn-light contact-btn-2" onclick="navigateToContact('./contact.html')">
+                                Let's Talk
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side: Product Card Style Image -->
+                <div class="col-lg-6">
+                    <div class="product-card text-center p-4">
+                        <img src="./images/shopify-development-store.png" alt="Shopify Illustration" class="img-fluid"
+                            style="max-height: 400px; object-fit: contain;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="foot-container">
+                <div class="container">
+                    <div class="row border-bottom-lg">
+                        <div class="col-3 foot-logo-container">
+                            <div class="navbar-logo"> <img class="logo-brand" src="./images/MintMind_Logo.png"
+                                    alt="company-logo">
+                            </div>
+                        </div>
+                        <div class="col-9 row foot-links ms-2">
+                            <div class="col-12 col-lg-2 foot-link-holder">
+                                <a href="#sec-1" class="foot-link ">Home</a>
+                            </div>
+                            <div class="col-12 col-lg-2 foot-link-holder">
+                                <a href="./services.html" class="foot-link ">Services</a>
+                            </div>
+                            <div class="col-12 col-lg-2 foot-link-holder">
+                                <a href="./careers.html" class="foot-link">Careers</a>
+                            </div>
+                            <div class="col-12 col-lg-2 foot-link-holder">
+                                <a href="./about.html" class="foot-link">About Us</a>
+                            </div>
+                            <div class="col-12 col-lg-2 foot-link-holder">
+                                <a href="./contact.html" class="foot-link">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p class="text-center ownership mb-5"> &copy;
+                2025 Mintmind Labs - All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+</body>
+
+</html>
