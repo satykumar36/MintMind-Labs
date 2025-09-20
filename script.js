@@ -165,7 +165,7 @@ fetch(jobsUrl)
                     <div class="job-tile-content">
                         <div class="job-name">
                             <h1>${job.title}</h1>
-                            <p>Mintmind Labs</p>
+                            <p>CherryCode</p>
                             <p>${job.description}</p>
                         </div>
                     </div>

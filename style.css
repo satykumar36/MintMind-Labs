@@ -1509,7 +1509,7 @@ a {
 
   .custom-scroll-section h2,
   .custom-scroll-section li:last-of-type {
-    background: linear-gradient(canvasText 50%, color-mix(in oklch, canvas, canvasText 25%));
+    background: linear-gradient(canvasText 10%, color-mix(in oklch, canvas, canvasText 25%));
     background-clip: text;
     color: #0000;
   }
@@ -1542,7 +1542,7 @@ a {
     text-wrap: pretty;
     line-height: 0.8;
     margin: 0;
-    background: linear-gradient(canvasText 60%, color-mix(in oklch, canvas, canvasText));
+    background: linear-gradient(canvasText -10%, color-mix(in oklch, canvas, canvasText));
     background-clip: text;
     color: #0000;
   }
