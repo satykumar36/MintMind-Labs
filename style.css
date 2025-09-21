@@ -726,12 +726,14 @@ html {
   height: auto;
   display: flex;
   justify-content: center;
+  gap: 20px;
   /* align-items: center; */
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 .contact-form {
-  width: calc(100% - 50%);
+  /* width: calc(100% - 50%); */
+  width: 100%;
 }
 
 form>label {
@@ -1229,6 +1231,14 @@ a {
   gap: 10px;
   margin: 0 auto;
   margin-bottom: 10px;
+}
+
+.Get_a_quote .round-button {
+  width: fit-content;
+}
+
+.Get_a_quote .round-button:hover {
+  color: #ffffff;
 }
 
 .bg-greenDot {
@@ -1748,9 +1758,52 @@ a {
 }
 
 /* ========Career Page========== */
-#job-container{
+#job-container {
   color: grey;
 }
-#job-container h1{
+
+#job-container h1 {
   color: #ddd;
+}
+
+/* ========Contact Page========== */
+
+.contact-section .bg-innerContainer {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.contact-section .bg-innerContainer a {
+  color: #ffffff;
+}
+
+.contact-section .bg-innerContainer .icon svg {
+  width: 30px;
+}
+
+.reach_content_containers {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width:900px) {
+  .form-cotainer {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+}
+
+.project_collaboration .process-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 250px;
+}
+.project_collaboration a:hover {
+color: #ffffff;
 }

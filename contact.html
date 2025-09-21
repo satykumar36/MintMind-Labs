@@ -19,7 +19,8 @@
         <div class="nav-bar-container container">
             <nav class="navbar navbar-expand-lg navbar-light navbar-transparent">
                 <div class="container-fluid">
-                    <div class="navbar-logo" onclick="navigateToContact('./index.html')"> <img class="logo-brand" src="./images/CherryCode_logo.png" alt="compnay-logo">
+                    <div class="navbar-logo" onclick="navigateToContact('./index.html')"> <img class="logo-brand"
+                            src="./images/CherryCode_logo.png" alt="compnay-logo">
                     </div>
                     <button class="navbar-toggler ms-5" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -34,9 +35,9 @@
                             <li class="nav-item">
                                 <a class="nav-link ms-lg-3 ms-0" href="./services.html">Services</a>
                             </li>
-                        
+
                             <li class="nav-item">
-                                <a class="nav-link ms-lg-3 ms-0" href="./careers.html">Careers</a>
+                                <a class="nav-link ms-lg-3 ms-0" href="./work.html">Work</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link ms-lg-3 ms-0" href="./about.html">About Us</a>
@@ -48,7 +49,8 @@
 
                     </div>
 
-                    <button class="btn btn-light contact-btn d-none d-lg-block" onclick="navigateToContact('./contact.html')">Let's Talk</button>
+                    <button class="btn btn-light contact-btn d-none d-lg-block"
+                        onclick="navigateToContact('./contact.html')">Let's Talk</button>
 
 
                 </div>
@@ -57,106 +59,267 @@
 
         <div class="contact-page-content container">
             <div class="contact-content-holder">
+                <button class="round-button"><span class="">Contact Us</span></button>
                 <div class="contact-content-main-tag">
-                    <h1 class="text-center">Book a Call , We can Discuss </h1>
+                    <h1 class="text-center"><span class="main-sub-tag">Book a Call</span>, We can <span
+                            class="main-sub-tag">Discuss</span> </h1>
                 </div>
                 <div class="contact-content-sub-tag">
-                    <p class="text-center">If you're interested in working with us,we'd love to hear about your expectations and specific needs.  </p>
-                    <p class="text-center">Contact us today, and let's discuss how we can create a successful partnership!</p>
+                    <p class="text-center">Let’s turn your concept into a successful commercial product together!</p>
+                    <!-- <p class="text-center">Contact us today, and let's discuss how we can create a successful partnership!</p> -->
                 </div>
             </div>
         </div>
 
     </section>
-    
+
     <section class="contact-section">
         <div class="container">
             <div class="form-cotainer" id="form-containerr">
                 <div class="contact-form">
-                    <form id="contactForm" action="https://hooks.zapier.com/hooks/catch/19266573/2bzyzm2/" method="POST">
+                    <div class="sub-tag">
+                        <p class="" style="font-weight: 600;
+    margin-bottom: 20px;
+    color: rgb(243, 243, 243);
+    font-size: 20px;">Your contact info</p>
+                    </div>
+                    <form id="contactForm" action="https://hooks.zapier.com/hooks/catch/19266573/2bzyzm2/"
+                        method="POST">
                         <label for="name">Name <span class="important">*</span> </label>
                         <div class="error-message mb-2" id="nameError">This field is required</div>
-                        <input type="text" id="name" placeholder="Enter your name" name="name" >
-                       
-                        
+                        <input class="round-button" type="text" id="name" placeholder="Enter your name" name="name">
+
+
                         <label for="email">Email <span class="important">*</span> </label>
                         <div class="error-message mb-2" id="emailError">This field is required</div>
-                        <input type="email" id="email" placeholder="Enter your email" name="email">
-                        
-    
+                        <input class="round-button" type="email" id="email" placeholder="Enter your email" name="email">
+
+
                         <label for="phone-number">Contact Number <span class="important">*</span> </label>
                         <div class="error-message mb-2" id="phoneError">This field is required</div>
-                        <input type="text" id="phone-number" placeholder="ex : +94 76 191 5021" name="phoneNumber" >
-                        
-    
-                
-                        <label for="service-type">What do you want to talk about? <span class="important">*</span></label>
+                        <input class="round-button" type="text" id="phone-number" placeholder="ex : +94 76 191 5021"
+                            name="phoneNumber">
+
+
+
+                        <label for="service-type">What do you want to talk about? <span
+                                class="important">*</span></label>
                         <div class="error-message" id="serviceTypeError">This field is required</div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="Web Development" id="webDevelopment" name="serviceType">
+                            <input class="form-check-input" type="checkbox" value="Web Development" id="webDevelopment"
+                                name="serviceType">
                             <label class="form-check-label" for="webDevelopment">Web Development</label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="Product Development" id="productDevelopment" name="serviceType">
+                            <input class="form-check-input" type="checkbox" value="Product Development"
+                                id="productDevelopment" name="serviceType">
                             <label class="form-check-label" for="productDevelopment">Product Development</label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="UI/UX Design" id="uiUxDesign" name="serviceType">
+                            <input class="form-check-input" type="checkbox" value="UI/UX Design" id="uiUxDesign"
+                                name="serviceType">
                             <label class="form-check-label" for="uiUxDesign">UI/UX Design</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="Marketing" id="Marketing"
+                                name="serviceType">
+                            <label class="form-check-label" for="Marketing">Marketing</label>
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="Other" id="other" name="serviceType">
                             <label class="form-check-label" for="other">Other</label>
                         </div>
-                        
+
                         <label for="service-description">Tell us what you need <span class="important">*</span> </label>
                         <div class="error-message mb-2" id="descriptionError">This field is required</div>
-                        <textarea name="service-description" id="service-description" placeholder="Give us a brief explanation about your requirement" name="serviceDescription"></textarea>
-                        
-                        
-                        <button class="form-submit-btn" type="submit">Submit</button>
+                        <textarea name="service-description" id="service-description"
+                            placeholder="Give us a brief explanation about your requirement"
+                            name="serviceDescription"></textarea>
+                        <button class="form-submit-btn" type="submit">Send message</button>
                     </form>
+                </div>
+                <div class="project-card reach_out_container" style="text-align: unset;">
+                    <div class="bg-innerContainer">
+                        <div class="p-4 flex flex-col gap-8 xxl:gap-14 h-full">
+                            <div class="reach_content_containers">
+                                <div class="" style="color: #f8f8f8b2;">
+                                    Reach Out To Us Via:</div><a target="_blank" class=""
+                                    href="mailto:info@sookshum-labs.com"
+                                    style="display: flex;align-items: center;gap: 10px;"><svg width="18" height="16"
+                                        viewBox="0 0 18 16" fill="none" class="w-6 h-6"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0.664062 3.83331L7.46816 8.59618C8.01914 8.98187 8.29463 9.17471 8.59428 9.2494C8.85897 9.31538 9.13582 9.31538 9.40051 9.2494C9.70017 9.17471 9.97565 8.98187 10.5266 8.59618L17.3307 3.83331M4.66406 14.6666H13.3307C14.7309 14.6666 15.4309 14.6666 15.9657 14.3942C16.4361 14.1545 16.8186 13.772 17.0582 13.3016C17.3307 12.7668 17.3307 12.0668 17.3307 10.6666V5.33331C17.3307 3.93318 17.3307 3.23312 17.0582 2.69834C16.8186 2.22793 16.4361 1.84548 15.9657 1.6058C15.4309 1.33331 14.7309 1.33331 13.3307 1.33331H4.66406C3.26393 1.33331 2.56387 1.33331 2.02909 1.6058C1.55868 1.84548 1.17623 2.22793 0.936546 2.69834C0.664062 3.23312 0.664062 3.93318 0.664062 5.33331V10.6666C0.664062 12.0668 0.664062 12.7668 0.936546 13.3016C1.17623 13.772 1.55868 14.1545 2.02909 14.3942C2.56387 14.6666 3.26393 14.6666 4.66406 14.6666Z"
+                                            stroke="white" stroke-width="1.25" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </svg>
+                                    <div class="">
+                                        info@sookshum-labs.com</div>
+                                </a>
+                            </div><a target="_blank" class="reach_content_containers"
+                                href="https://maps.google.com/?q=sookshum-labs">
+                                <div class="" style="display: flex;align-items: center;gap: 10px;">
+                                    <svg width="20" height="19" viewBox="0 0 20 19" fill="none" class="w-5 h-5"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.3307 10.1454C16.2739 10.724 18.3307 12.0456 18.3307 13.5833C18.3307 15.6544 14.5998 17.3333 9.9974 17.3333C5.39502 17.3333 1.66406 15.6544 1.66406 13.5833C1.66406 12.0456 3.72089 10.724 6.66406 10.1454M9.9974 13.1667V6.5M9.9974 6.5C11.3781 6.5 12.4974 5.38071 12.4974 4C12.4974 2.61929 11.3781 1.5 9.9974 1.5C8.61668 1.5 7.4974 2.61929 7.4974 4C7.4974 5.38071 8.61668 6.5 9.9974 6.5Z"
+                                            stroke="white" stroke-width="1.5" stroke-linejoin="round"
+                                            stroke-linecap="round"></path>
+                                    </svg><span class="uppercase !font-light">Our Location:</span>
+                                </div>
+                                <div class="">
+                                    Noida, India</div>
+                                <!-- <div class="">
+                                    A-708, Tower-A, 7th Floor, Bestech Business Towers, Sector 66, Mohali, Punjab, India
+                                    - 160062</div> -->
+                            </a>
+                            <div class="icon"><svg width="56" height="30" viewBox="0 0 56 30" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" class="w-[56px] h-[30px]">
+                                    <path
+                                        d="M19.0247 30H0L16.1096 0H28.3836L19.0247 30ZM46.6411 30H27.6164L43.726 0H56L46.6411 30Z"
+                                        fill="white"></path>
+                                </svg>
+                                <h5 class="">
+                                    <span>Coming together is a beginning, staying together is progress, and working
+                                        together is success.✨</span>
+                                </h5>
+                                <div class="" style="color: #f8f8f8b2;">
+                                    -Henry Ford</div>
+                                <h5 class="" style="margin-top: 20px;margin-bottom: 0px; text-align: center;">
+                                    <span>Shall we begin?</span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    
+
+    <!-- ==========Get a quote========== -->
+    <section class="section-6" id="sec-6">
+        <div class="projects-content container container_wrapper Get_a_quote"
+            style="padding-bottom: 0;padding-top: 40px;">
+            <div class="projects-content-parent">
+                <div class="projects-content-child">
+                    <div class="row mt-5 values_row_wrapper" style="margin-top: 100px !important;">
+                        <!-- Process 1-->
+                        <div class="col-12 col-lg-6">
+                            <div class="project-card process-card-wrapper"
+                                style="position: relative;    padding-top: 110px; text-align: left;">
+                                <img src="./images/Get_a_quote.webp" alt="Image 1" class="work_image our_value_image">
+                                <h4 class="mt-3 project-title">Get a Quote</h4>
+                                <p class="project-title">We know the impact design can have in making a product</p>
+                                <a href="#form-containerr" class="round-button" style="margin: initial"><span
+                                        class="">Chat with us</span></a>
+                            </div>
+                        </div>
+
+                        <!-- Process 2 -->
+                        <div class="col-12 col-lg-6">
+                            <div class="project-card process-card-wrapper"
+                                style="position: relative;    padding-top: 110px; text-align: left;">
+                                <img src="./images/Shedule_meeting.webp" alt="Image 1"
+                                    class="work_image our_value_image">
+                                <h4 class="mt-3 project-title">Schedule a Meeting</h4>
+                                <p class="project-title">We know the impact design can have in making a product.</p>
+                                <a href="#form-containerr" class="round-button" style="margin: initial"><span
+                                        class="">Shedule meeting</span></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========Project and collaboration========== -->
+    <section class="section-6" id="sec-6">
+        <div class="about-global-wrapper projects-content container container_wrapper project_collaboration"
+            style="padding-top: 0;">
+            <div class="row">
+                <!-- Process 1-->
+                <div class="col-12 col-lg-4 mb-4">
+                    <div class="project-card process-card-wrapper" style="text-align: left;">
+                        <div class="flex justify-between grow"
+                            style="display: flex; justify-content: space-between; align-items: center;">
+                            <h4 class="mt-3 project-title">Projects and collaboration</h4>
+                            <img src="./images/mail.webp" alt="Image 1" class="" width="46px" height="46px">
+                        </div>
+
+                        <h4 class="mt-3 project-title">info@sookshum-labs.com</h4>
+                    </div>
+                </div>
+
+                <!-- Process 2 -->
+                <div class="col-12 col-lg-4 mb-4">
+                    <div class="project-card process-card-wrapper" style="text-align: left;">
+                        <div class="flex justify-between grow"
+                            style="display: flex; justify-content: space-between; align-items: center;">
+                            <h4 class="mt-3 project-title">Careers</h4>
+                            <img src="./images/search.webp" alt="Image 1" class="" width="46px" height="46px">
+                        </div>
+
+                        <h4 class="mt-3 project-title">careers@sookshum-labs.com</h4>
+                    </div>
+                </div>
+
+                <!-- Process 3 -->
+                <div class="col-12 col-lg-4 mb-4">
+                    <div class="project-card process-card-wrapper" style="text-align: left;">
+                        <div class="flex justify-between grow"
+                            style="display: flex; justify-content: space-between; align-items: center;">
+                            <h4 class="mt-3 project-title">Want to join our team?
+                                <br> Send us your CV.
+                            </h4>
+                            <img src="./images/services9.webp" alt="Image 1" class="" width="46px" height="46px">
+                        </div>
+
+                        <a href="mailto:satykumar36@gmail.com" class="round-button" style="margin: initial"><span
+                                class="">Send us CV</span></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 
-  <footer>
+
+    <footer>
 
 
         <div class="container">
             <div class="foot-container">
                 <div class="container">
-                <div class="row border-bottom-lg">
-                    <div class="col-3 foot-logo-container">
-                        <div class="navbar-logo"> <img class="logo-brand" src="./images/CherryCode_logo.png"
-                                alt="">
+                    <div class="row border-bottom-lg">
+                        <div class="col-3 foot-logo-container">
+                            <div class="navbar-logo"> <img class="logo-brand" src="./images/CherryCode_logo.png" alt="">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-9 row foot-links ms-2">
-                        <div class="col-12 col-lg-2 foot-link-holder">
-                            <a href="#sec-1" class="foot-link ">Home</a>
-                    
-                        </div>
-                        <div class="col-12 col-lg-2 foot-link-holder">
-                            <a href="./services.html" class="foot-link ">Services</a>
-                        </div>
-                        <div class="col-12 col-lg-2 foot-link-holder">
-                            <a href="./careers.html" class="foot-link">Careers</a>
-                            
-                        </div>
-                        <div class="col-12 col-lg-2 foot-link-holder">
-                            <a href="./about.html" class="foot-link">About Us</a>
-                            
-                        </div>
-                        <div class="col-12 col-lg-2 foot-link-holder">
-                            <a href="./contact.html" class="foot-link">Contact Us</a>
+                        <div class="col-9 row foot-links ms-2">
+                            <div class="col-12 col-lg-2 foot-link-holder">
+                                <a href="#sec-1" class="foot-link ">Home</a>
+
+                            </div>
+                            <div class="col-12 col-lg-2 foot-link-holder">
+                                <a href="./services.html" class="foot-link ">Services</a>
+                            </div>
+                            <div class="col-12 col-lg-2 foot-link-holder">
+                                <a href="./work.html" class="foot-link">Work</a>
+
+                            </div>
+                            <div class="col-12 col-lg-2 foot-link-holder">
+                                <a href="./about.html" class="foot-link">About Us</a>
+
+                            </div>
+                            <div class="col-12 col-lg-2 foot-link-holder">
+                                <a href="./contact.html" class="foot-link">Contact Us</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
             </div>
             <p class="text-center ownership mb-5"> &copy;
