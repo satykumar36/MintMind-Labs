@@ -2052,14 +2052,56 @@ a {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top center;
-}
-.work-showcase {
+  }
+
+  .work-showcase {
     height: 40vh;
-}
-.work-page-hold-tight{
-  height: 80vh;
-}
-.work-showcase .slider-container {
+  }
+
+  .work-page-hold-tight {
+    height: 80vh;
+  }
+
+  .work-showcase .slider-container {
     right: unset;
+  }
+}
+
+/* ========Brands============ */
+section.brands-list{
+  padding-top: 100px;
+  height: unset !important;
+}
+ul.brands-ul {
+display: flex
+;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-inline: 100px;
+    margin: 0 auto;
+    justify-content: space-around;
+    row-gap: 35px;
+}
+ul.brands-ul li.multicolumn-card {
+    max-width: 260px;
+}
+ul.brands-ul li.multicolumn-card img {
+    width: 100%;
+}
+.brands-heading h5{
+      text-align: center;
+    font-size: 18px;
+    color:white;
+        margin-bottom: 30px;
+}
+
+@media screen and (max-width:600px) {
+  section.brands-list {
+    padding-top: 50px;
+}
+}
+@media screen and (max-width:550px) {
+ul.brands-ul li.multicolumn-card {
+    max-width: 130px;
 }
 }
