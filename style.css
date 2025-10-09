@@ -2105,3 +2105,13 @@ ul.brands-ul li.multicolumn-card {
     max-width: 130px;
 }
 }
+
+/* ==========Responsive============ */
+@media screen and (max-width:550px) {
+  .home-content-1 {
+    height: calc(100vh - 300px);
+  }
+  .section-1 {
+    height: 80vh;
+}
+}
