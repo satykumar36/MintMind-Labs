@@ -70,24 +70,12 @@
     <section class="hero-section">
         <!-- <h1>Creative visual experience</h1> -->
         <div class="mini-gallery">
-            <picture><img
-                    src="./images/ACCESSORIES.png"
-                    alt=""></picture>
-            <picture><img
-                    src="./images/BEAUTY.png"
-                    alt=""></picture>
-            <picture><img
-                    src="./images/FASHION.png"
-                    alt=""></picture>
-            <picture><img
-                    src="./images/GYM.png"
-                    alt=""></picture>
-            <picture><img
-                    src="./images/LUXURY.png"
-                    alt=""></picture>
-            <picture><img
-                    src="./images/SUIT.png"
-                    alt=""></picture>
+            <picture><img src="./images/ACCESSORIES.png" alt=""></picture>
+            <picture><img src="./images/BEAUTY.png" alt=""></picture>
+            <picture><img src="./images/FASHION.png" alt=""></picture>
+            <picture><img src="./images/GYM.png" alt=""></picture>
+            <picture><img src="./images/LUXURY.png" alt=""></picture>
+            <picture><img src="./images/SUIT.png" alt=""></picture>
             <picture><img
                     src="https://plus.unsplash.com/premium_photo-1678937611513-720220f9105e?q=80&w=687&auto=format&fit=crop"
                     alt=""></picture>
@@ -98,18 +86,14 @@
         <div class="double-image">
             <div class="double-image-item">
                 <picture>
-                    <img src="./images/BEAUTY.png"
-                        alt="">
-                    <img src="./images/FASHION.png"
-                        alt="" class="top-move">
+                    <img src="./images/BEAUTY.png" alt="">
+                    <img src="./images/FASHION.png" alt="" class="top-move">
                 </picture>
             </div>
             <div class="double-image-item">
                 <picture>
-                    <img src="./images/ACCESSORIES.png"
-                        alt="">
-                    <img src="./images/SUIT.png"
-                        alt="" class="bottom-move">
+                    <img src="./images/ACCESSORIES.png" alt="">
+                    <img src="./images/SUIT.png" alt="" class="bottom-move">
                 </picture>
             </div>
         </div>
@@ -199,9 +183,9 @@
 
     <!-- Work Showcase Section -->
     <section class="work-showcase">
-        <div class="fullscreen-background" id="fullscreen-bg">
+        <a href="#" class="fullscreen-background" id="fullscreen-link" target="_blank" rel="noopener noreferrer">
             <div class="fullscreen-text" id="fullscreen-text"></div>
-        </div>
+        </a>
 
         <div class="slider-container">
             <button class="nav-btn left" id="nav-left" aria-label="Scroll Left">
@@ -225,40 +209,42 @@
     <script>
         const sliderData = [
             {
-                image:
-                    "./images/Uzisport1.png",
+                image: "./images/Uzisport1.png",
                 text: "Uzisport — UK Cricket & Hockey Specialist",
+                link: "https://uzisport.co.uk" // <-- Add your project URL
             },
             {
-                image:
-                    "./images/Nueherbs.png",
+                image: "./images/Nueherbs.png",
                 text: "Neuherbs — Nature Meets Science",
+                link: "./nueherbs-project.html"
             },
             {
-                image:
-                    "./images/AHandTailored.png",
-                text: "A Hand Tailored Suit – Bespoke Tailoring Platform",
+                image: "./images/AHandTailored.png",
+                text: "A Hand Tailored Suit – Bespoke Tailoring Platform",
+                link: "https://ahandtailoredsuit.com"
             },
             {
-                image:
-                    "./images/Alexander.png",
-                text: "Alexander Nash – Luxury Bespoke Tailoring NYC",
+                image: "./images/Alexander.png",
+                text: "Alexander Nash – Luxury Bespoke Tailoring NYC",
+                link: "https://alexandernashnyc.com"
             },
             {
-                image:
-                    "./images/Badass.png",
+                image: "./images/Badass.png",
                 text: "Badass Bespokery – Premium Custom Tailoring",
+                link: "https://badassbespokery.com"
             },
             {
-                image:
-                    "./images/Homely_work.jpg",
+                image: "./images/Homely_work.jpg",
                 text: "Homely – Customizable Sofa & Table Storefront",
+                link: "https://homely.com"
             }
         ];
 
+
         const cardTrack = document.getElementById("card-track");
-        const fullscreenBg = document.getElementById("fullscreen-bg");
+        const fullscreenLink = document.getElementById("fullscreen-link");
         const fullscreenText = document.getElementById("fullscreen-text");
+
         let activeIndex = 0;
         let cards = [];
 
@@ -291,7 +277,9 @@
                 card.classList.toggle("active", i === activeIndex);
             });
 
-            fullscreenBg.style.backgroundImage = `url(${sliderData[activeIndex].image})`;
+            fullscreenLink.style.backgroundImage = `url(${sliderData[activeIndex].image})`;
+            fullscreenLink.href = sliderData[activeIndex].link;
+
             fullscreenText.innerText = sliderData[activeIndex].text;
         }
 
